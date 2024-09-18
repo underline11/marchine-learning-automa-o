@@ -1,0 +1,23 @@
+# Automação com Python
+
+Este projeto contém uma apostila sobre automação de tarefas utilizando a linguagem Python. Através de exemplos práticos e explicações detalhadas, você aprenderá a automatizar processos repetitivos e a otimizar fluxos de trabalho. O objetivo principal é fornecer uma base sólida para iniciantes e intermediários que desejam explorar as funcionalidades de automação que o Python oferece.
+
+## Funcionalidades
+
+- Automação de tarefas administrativas (e.g., renomear arquivos, mover dados entre diretórios).
+- Interação com APIs e manipulação de dados.
+- Automação de atividades repetitivas (e.g., scraping de sites, envio de e-mails).
+- Execução agendada de tarefas com scripts Python.
+- Uso de bibliotecas como `os`, `shutil`, `requests`, `smtplib`, entre outras.
+
+## Estrutura do Projeto
+
+```bash
+Automacao_com_Python/
+├── exemplos/
+│   ├── renomear_arquivos.py
+│   ├── enviar_email.py
+│   └── scraping_site.py
+├── apostila.pdf
+├── README.md
+└── .gitignore
