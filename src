@@ -1,0 +1,38 @@
+time.sleep(5)
+x, y = pyautogui.position() 
+print(f"A posição do cursor é: ({x}, {y})")
+
+import pyautogui
+import time
+
+pyautogui.PAUSE = 1  # Pausa de 1 segundo entre cada comando
+
+# Abrir o Google
+pyautogui.press('win')
+pyautogui.write("google")
+pyautogui.press('enter')
+time.sleep(2)
+
+pyautogui.hotkey("ctrl", "shift", "N")  # Corrigido: 'pyautogui' em vez de 'payautogui'
+time.sleep(2)
+pyautogui.write('https://mail.google.com/mail/u/0/#inbox')
+pyautogui.press('enter')
+time.sleep(10)  # Espera para o Gmail carregar
+pyautogui.write("fillipe.devsystem")
+pyautogui.press('enter')
+time.sleep(5)
+pyautogui.write("0102030405060708][")
+pyautogui.press('enter')
+time.sleep(13)  
+pyautogui.click(35, 178)
+time.sleep(20)
+
+pyautogui.write("ivan.devsystem@gmail.com")
+time.sleep(10)
+pyautogui.click(1248, 349)
+pyautogui.write("saudação")
+time.sleep(4)
+pyautogui.press('tab')
+pyautogui.write("oi professor")
+time.sleep(5)
+pyautogui.click(870, 684)
