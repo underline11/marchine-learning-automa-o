@@ -1,0 +1,23 @@
+
+---
+
+### .gitignore para o projeto "Automação com Python"
+
+
+# Arquivos de ambiente virtual
+venv/
+env/
+__pycache__/
+
+# Arquivos de configuração pessoal
+*.env
+*.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados
+*.log
+*.pyc
+*.pyo
